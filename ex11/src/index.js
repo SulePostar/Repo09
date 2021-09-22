@@ -1,24 +1,24 @@
 function switchCase(letter) {
 
   // Only change code below this line
-  var animals = "";
+  var animals     =     ""
 
   switch (letter) {
     case "a":
       animals = "antelope";
-      break;
+      break ;
     case "b":
       animals = "bird";
-      break;
+      break ;
     case "c":
       animals = "cat";
-      break;
-    default:
+      break ;
+    default :
       animals = "stuff";
   }
   // Only change code above this line
   
-  return animals;
+  return           animals
 }
 
-module.exports = switchCase;
+module.exports   =  switchCase
