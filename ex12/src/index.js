@@ -7,7 +7,7 @@ function switchCaseSequential (num) {
     case 2:
     case 3:
       answer = "Low"
-      break;
+      break
     case 4:
     case 5:
     case 6:
@@ -25,4 +25,4 @@ function switchCaseSequential (num) {
 }
 
 
-module.exports = switchCaseSequential;
+module.exports  =   switchCaseSequential
