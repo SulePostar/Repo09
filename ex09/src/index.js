@@ -1,19 +1,13 @@
-function functionElse(num) {
-
+function logicalOrOperator (num) {
   // Only change code below this line
   
-  var result = "";
-
-  if (num <= 5) {
-    result = "5  or  smaller...";
-  } else {
-    result = "Bigger  than     5 !";
+  if (num < 20 || num > 30) {
+    return "Out";
   }
-
-  return result;
-
+  return "In";
+  
   // Only change code above this line
 }
 
 
-module.exports = functionElse;
+module.exports = logicalOrOperator;
