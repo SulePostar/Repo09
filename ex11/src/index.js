@@ -1,6 +1,7 @@
 // Only change code below this line
 function functionElse(num) {
   var result = "";
+  var atif = "";
   if(num <= 5) {
     result = "5 or smaller";
   }
