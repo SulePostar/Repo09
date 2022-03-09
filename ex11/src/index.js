@@ -2,6 +2,7 @@
 function functionElse(num) {
   var result = "";
   var atif = "";
+  var ifeta = "";
   if(num <= 5) {
     result = "5 or smaller";
   }
