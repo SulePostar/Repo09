@@ -1,14 +1,10 @@
-function logicalAndOperator(num) {
+function randomRangeNumber(minNumber, maxNumber) {
   // Only change code below this line
   
-  if (num <= 80 && num >= 40) {
-    return "Yes";
-  }
-  
-  return "No";
+  return Math.floor(Math.random() * maxNumber + minNumber);
   
   // Only change code above this line
 }
 
 
-module.exports = logicalAndOperator;
+module.exports = randomRangeNumber;
