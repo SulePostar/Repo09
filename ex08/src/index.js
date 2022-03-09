@@ -1,7 +1,7 @@
 function logicalAndOperator (num) {
   // Only change code below this line
   
-  if (num < 20 && num > 30) {
+  if (num >= 40 && num <= 80) {
     return "Yes";
   }
   return "No";
