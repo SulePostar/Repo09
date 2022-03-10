@@ -1,13 +1,13 @@
 // Only change code below this line
 function inverseWhile() {
-  var res = "";
+  var fiveNumbers = "";
   var num = 5;
   while(num >= 0) {
-    res += num;
-    if(num > 0) res += ",";
+    fiveNumbers += num;
+    if(num > 0) fiveNumbers += ",";
     num--;
   }
-  return res;
+  return fiveNumbers;
 }
 // Only change code above this line
 console.log(inverseWhile());
