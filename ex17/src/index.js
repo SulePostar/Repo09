@@ -1,14 +1,19 @@
-// Only change code below this line
 function inverseWhile() {
-  let fiveNumbers = "";
-  let num = 5;
-  while(num >= 0) {
-    fiveNumbers += num;
-    if(num > 0) fiveNumbers += ", ";
-    num--;
+  var fiveNumbers = "";
+
+  var i = 6;
+
+  while (i > 0) {
+    i--;
+    if (i > 0) {
+      fiveNumbers += i + ",";
+    } else {
+      fiveNumbers += i;
+    }
   }
+
   return fiveNumbers;
 }
-// Only change code above this line
+
 console.log(inverseWhile());
 module.exports = inverseWhile;

@@ -1,10 +1,12 @@
-function randomRangeNumber(minNumber, maxNumber) {
-  // Only change code below this line
+function randomRangeNumber(minNumber,maxNumber) {
+    return Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+  }
   
-  return Math.floor(Math.random() * (maxNumber-minNumber) + minNumber);
+  console.log(randomRangeNumber(0,1));
+  console.log(randomRangeNumber(2,3));
+  console.log(randomRangeNumber(4,10));
+  console.log(randomRangeNumber(3,4));
+  console.log(randomRangeNumber(100,101));
   
-  // Only change code above this line
-}
-
-
-module.exports = randomRangeNumber;
+  module.exports = randomRangeNumber;
+  

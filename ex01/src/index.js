@@ -1,12 +1,6 @@
-function myTrueBoolean()  {
-  // Only change code below this line
-  return      true;
-  // Only change code above this line
+function myTrueBoolean() {
+  return true;
 }
 
-
-
-
-console.log( myTrueBoolean (  )     );
-
-module.exports  =  myTrueBoolean;
+console.log(myTrueBoolean());
+module.exports = myTrueBoolean;

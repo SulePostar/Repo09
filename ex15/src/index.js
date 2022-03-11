@@ -1,6 +1,5 @@
-// Only change code below this line
 function switchCase(letter) {
-  let animals = "";
+  var animals = "";
   switch (letter) {
     case "a":
       animals = "antelope";
@@ -17,6 +16,11 @@ function switchCase(letter) {
   }
   return animals;
 }
-// Only change code above this line
+
+console.log(switchCase("a"));
+console.log(switchCase("b"));
+console.log(switchCase("c"));
+console.log(switchCase("d"));
+console.log(switchCase(4));
 
 module.exports = switchCase;
